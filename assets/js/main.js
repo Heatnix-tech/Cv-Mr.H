@@ -58,3 +58,10 @@ const typed = new Typed('.multiple-text', {
     backDelay: 1000,
     loop: true
 })
+
+/*-- SCROLL TO TOP --*/
+history.scrollRestoration = "manual";
+
+window.onbeforeunload = function () {
+    window.scrollTo({top: 0, behavior: 'smooth'});
+}
