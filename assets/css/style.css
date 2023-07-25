@@ -144,6 +144,9 @@ span {
 
 .btn {
     display: inline-block;
+    text-align: center;
+    min-width: 100px;
+    max-width: 200px;
     padding: 1rem 2.8rem;
     background: var(--main-color);
     border-radius: 4rem;
@@ -153,6 +156,8 @@ span {
     letter-spacing: .1rem;
     font-weight: 600;
     transition: .5s ease;
+    margin-bottom: 15px;
+    margin-right: 15px;
 }
 
 .btn:hover {
